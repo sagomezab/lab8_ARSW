@@ -50,6 +50,9 @@ Para esto, realice lo siguiente:
 3. Compile y ejecute su aplicación. Abra la aplicación en varias pestañas diferentes (para evitar problemas con el caché del navegador, use el modo 'incógnito' en cada prueba).
 4. Ingrese los datos, ejecute la acción del botón, y verifique que en todas la pestañas se haya lanzado la alerta con los datos ingresados.
 
+* Verificamos la notificicación de la alerta en las pestañas que abrimos
+![](img/PARTE10K1.png)
+
 5. Haga commit de lo realizado, para demarcar el avance de la parte 2.
 
 	```bash
