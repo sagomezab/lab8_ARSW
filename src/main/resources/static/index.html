@@ -26,7 +26,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <script src="/app.js"></script>
 </head>
 
-<body onload="app.init()">
+
+<body>
+    <div>
+        <select id="connection" class="box">
+            <option value="/newpoint.">Draw</option>
+            <option value="/newpolygon.">Polygon</option>
+        </select>
+        <input id="drawId" type="number">
+        <button onclick="app.connect()">connect</button>
+    </div>
     X:<input id="x" type="number"/>
     Y:<input id="y" type="number"/>        
     <button onclick="app.publishPoint($('#x').val(),$('#y').val())">Send point</button>
