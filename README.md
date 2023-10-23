@@ -86,6 +86,9 @@ Ajuste la aplicación anterior para que pueda manejar más de un dibujo a la vez
 3. De la misma manera, haga que las publicaciones se realicen al tópico asociado al identificador ingresado por el usuario.
 4. Rectifique que se puedan realizar dos dibujos de forma independiente, cada uno de éstos entre dos o más clientes.
 
+* Se verifico que hay independicia en las conexiones que se realizan
+![](img/PARTE3OK.png)
+
 	```bash
 	git commit -m "PARTE 3".
 	```
@@ -130,9 +133,14 @@ Para ver cómo manejar esto desde el manejador de eventos STOMP del servidor, re
 
 	3. El cliente, ahora también se suscribirá al tópico '/topic/newpolygon'. El 'callback' asociado a la recepción de eventos en el mismo debe, con los datos recibidos, dibujar un polígono, [tal como se muestran en ese ejemplo](http://www.arungudelli.com/html5/html5-canvas-polygon/).
 	4. Verifique la funcionalidad: igual a la anterior, pero ahora dibujando polígonos cada vez que se agreguen cuatro puntos.
-	
+
+* Se realizaron diversas pruebas y se comprobó el funcionamiento
+![](img/PARTEFINALOK.png)	
 	
 5. A partir de los diagramas dados en el archivo ASTAH incluido, haga un nuevo diagrama de actividades correspondiente a lo realizado hasta este punto, teniendo en cuenta el detalle de que ahora se tendrán tópicos dinámicos para manejar diferentes dibujos simultáneamente.
+
+* Se realizo el ajuste del astah
+![](img/ASTAHFINALOK.png)
 
 5. Haga commit de lo realizado.
 
